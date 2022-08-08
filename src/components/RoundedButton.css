@@ -1,0 +1,24 @@
+.rounded-button {
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0rem 2rem;
+    background: #444444;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.rounded-button:hover {
+    background: #505050; 
+}
+
+.rounded-button:active {
+    transform: scale(0.95);
+}
+
+.rounded-button svg {
+    margin-right: 0.35rem;
+    font-size: 0.9rem;
+}

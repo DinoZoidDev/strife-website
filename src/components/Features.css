@@ -1,0 +1,25 @@
+#features {
+    min-height: 25vh;
+    padding: 4vh 0 0vh 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#features .section-title {
+    padding-bottom: clamp(0.5rem, 1vh, 2rem);
+}
+
+.cards .card {
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .cards {
+      flex-flow: row wrap;
+    }
+}

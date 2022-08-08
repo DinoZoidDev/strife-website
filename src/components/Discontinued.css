@@ -1,0 +1,41 @@
+.discontinued {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 32rem;
+    min-height: 12rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 1rem;
+    border: 3px solid crimson;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.discontinued:active {
+    transform: translate(-50%, -50%) scale(.95);
+}
+
+.discontinued-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: crimson;
+}

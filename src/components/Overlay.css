@@ -1,0 +1,25 @@
+.overlay-container {
+    flex: 1 1 auto;
+}
+
+.overlay {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: crimson;
+    filter: drop-shadow(4px 4px 5px rgb(185, 19, 52));
+    font-size: clamp(3rem, 4.5vw, 4.5rem);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: clamp(0.75rem, 1vw, 1rem);
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.card {
+    background: #3f3f3f;
+    width: clamp(10rem, 15vw, 15rem);
+    height: clamp(15rem, 20vw, 20rem);
+    border-radius: 5%;
+    transition: transform 0.3s;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:active {
+    transition: all 0.2s;
+    transform: scale(0.95);
+}
+
+.card-header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 0 0 2vh 0;
+}
+
+.card svg {
+    padding-bottom: 0.5rem;
+}
+
+.card-title {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
+.card-description {
+    text-align: center;
+    font-size: clamp(0.75rem, 1vw, 1rem);
+    line-clamp: calc(0.6vw);
+    margin: 0 1rem;
+}

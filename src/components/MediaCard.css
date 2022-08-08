@@ -1,0 +1,26 @@
+.media-card {
+    background: #3f3f3f;
+    padding: 1.5rem;
+    transition: transform 0.2s;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.media-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.media-cards .media-card {
+    margin: 0 2rem;
+}
+
+.card-video {
+    width: 24rem;
+    height: 13.59rem;
+}

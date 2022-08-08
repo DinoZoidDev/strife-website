@@ -1,0 +1,65 @@
+.footer {
+    min-height: 25vh;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navs ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navs ul li {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.navs ul a {
+    font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
+.navs {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-title {
+    color: crimson;
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.footer-copyright {
+    color: #a1a1a1;
+    text-align: center;
+    font-size: clamp(0.75rem, 1vw, 1rem);
+}
+
+.copyright-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.strife-logo {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(4px 4px 5px rgb(185, 19, 52));
+}
+
+@media only screen and (max-width: 500px) {
+    .footer {
+      flex-flow: row wrap;
+    }
+}
