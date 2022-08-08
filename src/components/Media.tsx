@@ -8,8 +8,8 @@ const Media = () => {
             <hr className="section-divider" />
             <div className="media-cards">
                 <MediaCard videoId="yiIt8RK5X3w"/>
-                <MediaCard videoId="M3Ne9J0t4oA"/>
-                <MediaCard videoId="EwF1SJhedzI"/>
+                <MediaCard videoId="EwF1SJhedzI" />
+                <MediaCard videoId="QCxVPsQh_8A"/>
             </div>
         </div>
     )
