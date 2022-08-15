@@ -4,7 +4,7 @@ This project was created for the use of my Minecraft client, strife.
 
 This code was written last year but was never pushed, everything is up to date now.
 
-Now the source code is available to you! Hope you enjoy!
+Now the project is available to you! Hope you enjoy!
 
 ## Available Scripts
 
