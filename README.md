@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Strife Client Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for the use of my Minecraft client, strife.
+
+This code was written last year but was never pushed, everything is up to date now.
+
+Now the source code is available to you! Hope you enjoy!
 
 ## Available Scripts
 
